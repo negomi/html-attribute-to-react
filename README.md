@@ -37,5 +37,5 @@ To get the full attribute map:
 import { attributes } from 'html-attribute-to-react';
 
 attributes['class'];
-// `className`
+// 'className'
 ```
