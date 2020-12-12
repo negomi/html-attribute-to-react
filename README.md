@@ -31,3 +31,11 @@ htmlAttributeToReact('aria-label');
 htmlAttributeToReact('some-custom-attribute');
 // returns 'some-custom-attribute'
 ```
+
+To get the full attribute map:
+```js
+import { attributes } from 'html-attribute-to-react';
+
+attributes['class'];
+// `className`
+```
