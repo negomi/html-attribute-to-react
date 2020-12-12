@@ -1,0 +1,25 @@
+{
+  "name": "html-attribute-to-react",
+  "version": "0.0.0",
+  "description": "Get the React equivalent of any native HTML attribute",
+  "main": "index.js",
+  "homepage": "https://github.com/negomi/html-attribute-to-react",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/negomi/html-attribute-to-react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/negomi/html-attribute-to-react/issues"
+  },
+  "scripts": {
+    "postversion":
+      "git push --tags && yarn publish . --tag $npm_package_version && git push && echo \"Successfully released version $npm_package_version\""
+  },
+  "readmeFilename": "README.md",
+  "keywords": [
+    "html",
+    "react",
+    "attributes"
+  ],
+  "license": "MIT"
+}
