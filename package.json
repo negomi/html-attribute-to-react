@@ -1,6 +1,6 @@
 {
   "name": "html-attribute-to-react",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Get the React equivalent of any native HTML attribute",
   "main": "index.js",
   "homepage": "https://github.com/negomi/html-attribute-to-react",
